@@ -1,11 +1,15 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { FaPython, FaHtml5, FaCss3Alt, FaJsSquare, FaBootstrap, FaReact, FaDatabase } from "react-icons/fa";
-import { SiCplusplus, SiPandas, SiNumpy, SiPowerbi } from "react-icons/si";
+import { FaPython, FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaDatabase } from "react-icons/fa";
+import { SiCplusplus, SiPandas, SiNumpy, SiC } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiC />
+        <p>C</p>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiCplusplus />
         <p>C++</p>
@@ -27,19 +31,17 @@ function Techstack() {
         <FaCss3Alt />
         <p>CSS</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaBootstrap />
-        <p>Bootstrap</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaDatabase />
-        <p>SQL</p>
-      </Col>
+     
       
       <Col xs={4} md={2} className="tech-icons">
         <FaReact />
         <p>ReactJS</p>
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaDatabase />
+        <p>MySQL</p>
+      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiPandas />
         <p>Pandas</p>
