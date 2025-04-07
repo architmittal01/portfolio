@@ -13,7 +13,7 @@ function ProjectCards(props) {
         
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsLink /> &nbsp;
-          href={props.ghLink} 
+          {/* href={props.ghLink}  */}
         </Button>
         {"\n"}
         {"\n"}
